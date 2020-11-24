@@ -1,0 +1,37 @@
+{
+  "npmScope": "gc",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "material": {
+      "tags": []
+    },
+    "core-data": {
+      "tags": []
+    },
+    "core-state": {
+      "tags": []
+    },
+    "ui-libraries": {
+      "tags": []
+    },
+    "vulnerability-checker": {
+      "tags": []
+    },
+    "vulnerability-checker-e2e": {
+      "tags": [],
+      "implicitDependencies": ["vulnerability-checker"]
+    },
+    "github-server": {
+      "tags": []
+    }
+  }
+}
